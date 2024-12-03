@@ -13900,7 +13900,7 @@
                     }
                     else {
                         result[0] = -1;
-                        result[1] = (count[1]+count[2])/cell_list.length; 
+                        result[1] = (count[2]*256+count[1]*16+count[3])/4096; 
                     }
 
                     if(count[3] != 0) {result[2] = 1;}
